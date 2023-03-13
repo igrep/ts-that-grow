@@ -1,0 +1,35 @@
+{
+  "name": "ts-that-grow",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Example Project for \"Trees that Grow\" in TypeScript",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint --ext ts src",
+    "fix:lint": "eslint --ext ts --fix src",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igrep/ts-that-grow.git"
+  },
+  "keywords": [
+    "typescript",
+    "example"
+  ],
+  "author": "Internet Initiative Japan Inc.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/igrep/ts-that-grow/issues"
+  },
+  "homepage": "https://github.com/igrep/ts-that-grow#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  }
+}
