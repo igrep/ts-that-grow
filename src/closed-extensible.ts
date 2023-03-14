@@ -35,9 +35,9 @@ export type CallFunc<Descriptor extends keyof ExtendCallFunc = "plain"> = {
 } & ExtendCallFunc[Descriptor];
 
 interface ExtendExpression {
-  plain: unknown;
-  location: unknown;
-  namespace: unknown;
+  plain: object;
+  location: object;
+  namespace: object;
 };
 
 type ExtendLiteral = {

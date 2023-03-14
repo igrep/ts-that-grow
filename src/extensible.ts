@@ -1,9 +1,9 @@
 export interface ExtendExpression {
-  Literal: unknown;
-  Variable: unknown;
-  SetVariable: unknown;
-  Func: unknown;
-  CallFunc: unknown;
+  Literal: object;
+  Variable: object;
+  SetVariable: object;
+  Func: object;
+  CallFunc: object;
 }
 
 export type Expression<Extend extends ExtendExpression = ExtendExpression> =
