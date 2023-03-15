@@ -2,7 +2,7 @@ import { Expression } from "./extensible-global-interface.js";
 
 declare global {
   interface ExtendExpression {
-    namespace: unknown;
+    namespace: object;
   }
   interface ExtendLiteral {
     namespace: object;
