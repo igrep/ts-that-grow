@@ -38,7 +38,7 @@ interface ExtendExpression {
   plain: object;
   location: object;
   namespace: object;
-};
+}
 
 type ExtendLiteral = {
   plain: object;
